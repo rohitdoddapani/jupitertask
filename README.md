@@ -1,7 +1,7 @@
 
 ## to run in local system clone this repository
 
-To install dependenies
+To install dependenies run
 
 ### `npm install`
 
