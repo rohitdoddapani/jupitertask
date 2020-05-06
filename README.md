@@ -1,5 +1,5 @@
 
-## to run in local system
+## to run in local system clone this repository
 
 To install dependenies
 
