@@ -5,10 +5,10 @@ const { Content } = Layout;
 
 const layout = {
     labelCol: {
-        span: 8,
+        span: 16,
     },
     wrapperCol: {
-        span: 16,
+        span: 8,
     },
 };
 const tailLayout = {
@@ -45,9 +45,9 @@ export default function Notifications() {
                         onFinish={onFinish}
                         onFinishFailed={onFinishFailed}
                     >
-                        <Form.Item label="Send All Alerts" name="alerts">
+                        <Form.Item label="Send All Alerts" name="alerts" valuePropName="checked">
                             <Switch />
-                        </Form.Item>
+                        </Form.Item>    
                         <Form.Item label="Alerts only task success">
                             <Switch />
                         </Form.Item>

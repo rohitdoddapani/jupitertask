@@ -4,15 +4,15 @@
         "name":  "Profile",
         "details": [
             {
-                "id": "p1",
+                "sid": "p1",
                 "info": "Home" 
             },
             {
-                "id": "p2",
+                "sid": "p2",
                 "info": "settings" 
             },
             { 
-                "id": "p3",
+                "sid": "p3",
                 "info": "Notifications" 
             }
         ]
@@ -22,11 +22,11 @@
         "name":  "My Tasks",
         "details": [
             {
-                "id": "t1",
+                "sid": "t1",
                 "info": "Task1" 
             },
             {
-                "id": "t2",
+                "sid": "t2",
                 "info": "Task2" 
             }
         ]

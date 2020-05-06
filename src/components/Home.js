@@ -22,6 +22,7 @@ export default function Home() {
     const onFinish = values => {
         alert('Values noted check in console')
         console.log('Success:', values);
+        form.resetFields();
     };
     const onReset = () => {
         form.resetFields();

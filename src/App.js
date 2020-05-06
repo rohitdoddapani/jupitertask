@@ -18,7 +18,7 @@ class App extends Component {
       <Router>
         <Layout>
           <NavBar />
-          <Layout>
+          <Layout >
             <SideBar />
             <Layout>
               <Content style={{ padding: '0 50px' }}>
